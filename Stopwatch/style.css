@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+background-color: #353A47 !important;
+}
+
+.container {
+  width: 300px !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#display {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.btn {
+  margin: 17px;
+}
+
+.btn:focus{
+outline: none !important;
+box-shadow: none !important;
+}
+
